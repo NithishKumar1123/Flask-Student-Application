@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Student Details</h1>
+    <table border = 2 id = "student-details-table">
+      <tr>
+        <th>Student id</th>
+        <th>Course id</th>
+        <th>Marks</th>
+      </tr>
+      {% for row in result %}
+      <tr>
+        <td>{{row[0]}}</td>
+        <td>{{row[1]}}</td>
+        <td>{{row[2]}}</td>
+      </tr>
+      {% endfor %}  
+      <tr>
+        <td colspan = "2" style = "text-align: center;">Total Marks</td>
+        <td>{{total}}</tr>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <a href = "/">Go back</a>
+  </body>
+</html>
