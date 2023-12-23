@@ -1,4 +1,4 @@
-# Flask-Student-Application
+# Flask Student Application
 A Student web application using Flask.
 
 ## Requirements
